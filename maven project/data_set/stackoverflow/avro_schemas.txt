@@ -1,0 +1,28 @@
+{
+  "type":  "record",
+  "name":  "StackOverflowPostRecord",
+  "doc":   "A Record",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "posttypeid", "type": ["null", "string"] },
+    { "name": "acceptedanswerid", "type": ["null", "string"] },
+    { "name": "parentid", "type": ["null", "string"] },
+    { "name": "creationdate", "type": ["null", "string"] },
+    { "name": "score", "type": ["null", "string"] },
+    { "name": "viewcount", "type": ["null", "string"] },
+    { "name": "body", "type": ["null", "string"] },
+    { "name": "owneruserid", "type": ["null", "string"] },
+    { "name": "ownerdisplayname", "type": ["null", "string"] },
+    { "name": "lasteditoruserid", "type": ["null", "string"] },
+    { "name": "lasteditordisplayname", "type": ["null", "string"] },
+    { "name": "lasteditdate", "type": ["null", "string"] },
+    { "name": "lastactivitydate", "type": ["null", "string"] },
+    { "name": "title", "type": ["null", "string"] },
+    { "name": "tags", "type": ["null", "string"] },
+    { "name": "answercount", "type": ["null", "string"] },
+    { "name": "commentcount", "type": ["null", "string"] },
+    { "name": "favoritecount", "type": ["null", "string"] },
+    { "name": "closeddate", "type": ["null", "string"] },
+    { "name": "communityowneddate", "type": ["null", "string"] }
+  ]
+}
